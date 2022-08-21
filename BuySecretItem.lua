@@ -1,6 +1,6 @@
 local BuySecretItem = {}
-BuySecretItem.optionEnable = Menu.AddOption({"Utility","Buy Secret Item"}, "Activate", "")
-BuySecretItem.optionKey = Menu.AddKeyOption({"Utility","Buy Secret Item"},"Key for buy and drop",Enum.ButtonCode.KEY_NONE)
+BuySecretItem.optionEnable = Menu.AddOption({"Beast","Buy Secret Item"}, "Activate", "")
+BuySecretItem.optionKey = Menu.AddKeyOption({"Beast","Buy Secret Item"},"Key for buy and drop",Enum.ButtonCode.KEY_NONE)
 
 function BuySecretItem.OnUpdate()
 	if not Menu.IsEnabled(BuySecretItem.optionEnable) then return end

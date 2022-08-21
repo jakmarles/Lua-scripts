@@ -1,7 +1,7 @@
 local AutoBuyTome = {}
 
-AutoBuyTome.Enable = Menu.AddOption({ "Utility", "Auto Tome" }, "Auto Buy Tome of Knowledge", "Buy every 10 minuts Tome of Knowledge if you have 150 gold")
-AutoBuyTome.EnableAlways = Menu.AddOption({ "Utility", "Auto Tome" }, "Auto Buy Tome of Knowledge Always", "Buy always, if off then buy if you have worst xp")
+AutoBuyTome.Enable = Menu.AddOption({ "Beast", "Auto Tome" }, "Auto Buy Tome of Knowledge", "Buy every 10 minuts Tome of Knowledge if you have 150 gold")
+AutoBuyTome.EnableAlways = Menu.AddOption({ "Beast", "Auto Tome" }, "Auto Buy Tome of Knowledge Always", "Buy always, if off then buy if you have worst xp")
 
 AutoBuyTome.Delay = 0
 

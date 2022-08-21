@@ -1,5 +1,5 @@
 local laughter = {}
-laughter.optionEnable = Menu.AddOption({"jakmarles","Laughter"}, "Activate", "")
+laughter.optionEnable = Menu.AddOption({"Beast","Laughter"}, "Activate", "")
 
 NeedTime = 0
 function laughter.OnUpdate()

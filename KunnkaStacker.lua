@@ -1,5 +1,5 @@
 local KunnkaStacker = {}
-KunnkaStacker.optionEnable = Menu.AddOption({"Utility", "Kunnka Stacker"}, "Activation", "")
+KunnkaStacker.optionEnable = Menu.AddOption({"Beast", "Kunnka Stacker"}, "Activation", "")
 
 function KunnkaStacker.OnUpdate()
   if not Menu.IsEnabled(KunnkaStacker.optionEnable) then return end
